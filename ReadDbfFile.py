@@ -7,13 +7,13 @@ def getDirPath():
     return (os.path.dirname(__file__))
 
 def opendb (filename):
-    tb = DBF(filename)
+    tb = DBF(getDirPath()+"\\"+filename,load=True)
     return tb
 
 
 if __name__ == "__main__":
     table = opendb("gkcf.dbf")
-    for record in table:
+    for record in table.deleted:
         for field in record:
             print(field,"=",record[field], end = ",")
         print()
