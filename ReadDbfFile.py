@@ -1,3 +1,5 @@
+# 读取dbf文件的Demo
+
 from dbfread import DBF
 import os
 
