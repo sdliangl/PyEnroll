@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "C:\\Users\\sdlia\\Documents\\Python_Prg\\venv\\Scripts\\python.exe",
+    "python.venvFolders": [
+        "envs",
+        ".pyenv",
+        ".direnv",
+        "venv"
+    ],
+    "python.venvPath": "C:\\Users\\sdlia\\Documents\\Python_Prg\\"
+}
