@@ -3,11 +3,9 @@
 from dbfread import DBF
 import os
 
-def getDirPath():
-    return (os.path.dirname(__file__))
 
 def opendb (filename):
-    tb = DBF(getDirPath()+"\\"+filename,load=True)
+    tb = DBF(getDirPath() + "/" + filename, load=True)
     return tb
 
 
