@@ -11,8 +11,8 @@ def opendb (filename):
 
 if __name__ == "__main__":
     table = opendb("gkcf.dbf")
-    for record in table.deleted:
+    for record in table:
         for field in record:
-            print(field,"=",record[field], end = ",")
+            print(field,"=", record[field], table.field_names, end =",")
         print()
 
