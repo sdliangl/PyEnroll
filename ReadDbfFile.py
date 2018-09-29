@@ -1,11 +1,11 @@
 # 读取dbf文件的Demo
 
 from dbfread import DBF
-import os
+
 
 
 def opendb (filename):
-    tb = DBF(getDirPath() + "/" + filename, load=True)
+    tb = DBF(filename, load=True)
     return tb
 
 
