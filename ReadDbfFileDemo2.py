@@ -124,7 +124,7 @@ if __name__=="__main__" :
     f =open("gkcf.dbf",'rb')
     db = list(dbfreader(f))
     f.close()
-    print(db[0])
+    print(str(db[0][0],encoding="utf-8"))
 
 
 
